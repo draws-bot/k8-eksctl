@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  namespace: expense
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  containers:
+  - name: alma
+    image: "almalinux:9"
